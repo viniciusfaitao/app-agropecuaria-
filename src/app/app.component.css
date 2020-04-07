@@ -1,0 +1,62 @@
+p {
+  font-family: Lato;
+}
+@media(min-width:767px){
+  .position1{
+    float:left;
+    width: 40%;
+  }
+  .position2{
+    float:left;
+    position:absolute;
+    right: 30%;
+    width: 30%;
+  }
+  .position3{
+    float:left;
+    position:absolute;
+    right: 1%;
+    width: 30%;
+  }
+}
+@media(max-width:767px){
+  
+  .positionprice{
+    width: 49%;
+    float:left;
+    justify-content: center;
+  }
+  .positionName{
+    margin-bottom: 15px;
+    width: 49%;
+    float: right;
+    justify-content: center;
+  }
+  .tamImg{
+    width: 150px;
+    height: 200px;
+    
+  }
+  .posImg{
+    width: 50%;
+    margin-top: 50px;
+    text-align-last: center;
+    max-height: 250px;
+    overflow: hidden;
+    min-inline-size: -webkit-fill-available;
+  }
+
+  .posImg:hover{
+    overflow: visible;
+    z-index: 9999;
+    border: solid 1px;
+    color: blue;
+    max-height: 400px;
+  }
+
+  .positionMenu{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+  }
+}
