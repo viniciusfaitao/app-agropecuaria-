@@ -1,4 +1,10 @@
-.banner{
+/* .banner{
   background-color: #00ca05;
 
+} */
+.logo{
+  width: 160px;
+  float: left;
+  margin-left: -18px;
+  margin-top: 20px;
 }

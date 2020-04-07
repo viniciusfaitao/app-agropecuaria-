@@ -2,7 +2,7 @@ export const avesGalinha = [
 {
   image: 'https://www.alisul.com.br/files/brandlines/image/44ce6fad-9606-454d-8ef3-eab30dfb243c/big_pgranja-3.png',
   name: 'Postura 5kg granulada ',
-  price: 8.00,
+  price: 8.99,
   description: 'aaa'
 },
 {
@@ -21,6 +21,7 @@ export const avesGalinha = [
 ];
 export const avesPassaros = [
 {
+  image:"",
   name: 'Calopsita 10kg',
   price: 35.00,
   description: 'aaa'
@@ -34,6 +35,7 @@ export const avesPassaros = [
 ];
 export const avesOutros = [
 {
+  image:"",
   name: 'Girassol Miudo 25kg',
   price: 80.00,
   description: 'aaa'

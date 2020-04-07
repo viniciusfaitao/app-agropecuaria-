@@ -193,10 +193,9 @@ export class AppComponent {
       this.isAvesGalinha = false;
       this.isAvesPassaros = false;
       this.isAvesOutros = false;
-
     }
-    
   }
+  
   public onDeSelectAnimal(item: any) {
     if(item.item_id == 1){
       this.isCachorroOption = false;

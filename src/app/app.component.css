@@ -22,26 +22,28 @@ p {
 @media(max-width:767px){
   
   .positionprice{
-    width: 49%;
-    float:left;
     justify-content: center;
+    position: absolute;
+    right: 21px;
+    top: 10px;
   }
   .positionName{
-    margin-bottom: 15px;
-    width: 49%;
-    float: right;
     justify-content: center;
+    position: absolute;
+    right: 21px;
+    top: 45px;
   }
+
   .tamImg{
     width: 150px;
-    height: 200px;
-    
+    height: 150px;
   }
+
   .posImg{
     width: 50%;
     margin-top: 50px;
     text-align-last: center;
-    max-height: 250px;
+    max-height: 210px;
     overflow: hidden;
     min-inline-size: -webkit-fill-available;
   }
@@ -57,6 +59,16 @@ p {
   .positionMenu{
     padding-left:20px;
     padding-right:20px;
-    padding-top:20px;
+    padding-top:35px;
   }
+
+  .line{
+  border-bottom: solid 5px;
+  border-radius: 0px 0px 0px 30px;
+  width: 91%;
+  position: absolute;
+  left: 18px;
+  top:75px;
+  color: #14ad16;
+}
 }
