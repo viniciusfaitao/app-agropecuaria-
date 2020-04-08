@@ -4,7 +4,7 @@ export const cachorroGrande = [
   image:"https://static.agronunes.com.br/public/nunesagropecuaria/imagens/produtos/27dbb865e6beb326f9bac24431c8f8fb.png",
   name: 'Apolo 7kg Grandes raças',
   price: 37.95,
-  description: 'aaa'
+  description:''
 },
 {
   image:"https://armazemdosbichos.com.br/sis/produtos/14581487159376.jpg",
