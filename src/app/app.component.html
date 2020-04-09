@@ -18,7 +18,7 @@
   </form>
 
   <div *ngIf="isCachorroOption">
-    <form [formGroup]="form"  class="positionMenu position2">
+    <form [formGroup]="form"  class="positionMenu2 position2">
       
         <ng-multiselect-dropdown
           [placeholder]="'Porte'" 
@@ -33,7 +33,7 @@
    </div>
 
    <div *ngIf="isGatoOption">
-    <form [formGroup]="form"  class="positionMenu position2">
+    <form [formGroup]="form"  class="positionMenu2 position2">
       
         <ng-multiselect-dropdown
           [placeholder]="'Tipo'" 
@@ -48,7 +48,7 @@
   </div>
 
   <div *ngIf="isAvesOption">
-   <form [formGroup]="form" class="positionMenu position2">
+   <form [formGroup]="form" class="positionMenu2 position2">
     <ng-multiselect-dropdown
       [placeholder]="'Tipo'" 
       [data]="dataAves" 
